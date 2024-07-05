@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+    font-family:Outfit ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -26,14 +36,7 @@ nav ul li a:hover {
     text-align: center;
     color: rgb(240, 139, 156);
 }
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
-}
+
 progress-container {
     width: 100%;
     margin-top: 20px;

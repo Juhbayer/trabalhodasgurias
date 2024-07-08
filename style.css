@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
+body {
+ font-family: Outfit;
+}
 
 
 
@@ -52,6 +56,6 @@ nav ul li a:hover {
 
 .ff{
     text-align: center;
-    color: rgb(240, 139, 156);
+    color: rgb(240, 164, 176);
 }
 

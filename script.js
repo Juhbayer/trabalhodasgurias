@@ -15,4 +15,3 @@ function updateProgress() {
     progress.style.width = progressWidth + '%';
     progress.textContent = progressWidth.toFixed(0) + '%';
 }
-,fdpowef

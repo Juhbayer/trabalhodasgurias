@@ -33,16 +33,15 @@ nav ul li a:hover {
     color: rgb(240, 164, 176);
 }
 
-progress-container {
-    width: 100%;
-    margin-top: 20px;
-}
-
 .progress {
-    height: 30px;
+    display: -ms-flexbox;
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
 }
-
-.progress-bar {
-    text-align: center;
-    line-height: 30px;
+.chata{
+     margin-top: 10px;       
 }

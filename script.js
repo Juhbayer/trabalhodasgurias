@@ -5,6 +5,7 @@ function updateProgress() {
     const progress = document.getElementById('progress-bar');
 
    
+
     let filled = 0;
     if (name !== '') filled++;
     if (email !== '') filled++;

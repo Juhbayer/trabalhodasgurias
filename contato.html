@@ -1,50 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="contato.css">
-    <link rel="stylesheet" href="script.js">
+    <script src="script.js" defer></script> <!-- Use defer para garantir que o script.js seja carregado após o DOM estar completamente carregado -->
 </head>
+
 <body>
     <header>
-        <h3 class="ff">Instituto de ensino técnico avançado</h3 >
+        <h3 class="ff">Instituto de ensino técnico avançado</h3>
+        <h1> <img src="img/LogoIns.png"> </h1>
         <nav>
             <ul class="um">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>          
                 <li><a href="sobre.html">Sobre</a></li>
                 <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <div class="container mt-5" id="contact">
-        <h2>Contato</h2>
-        <form id="contact-form" action="https://formsubmit.co/cardosorafaela.2802@gmail.com" method="POST">
-            <div class="form-group">
-                <label for="name">Nome</label>
-                <input type="text" class="form-control" id="name" name="nome" placeholder="Seu nome" oninput="updateProgress()">
-            </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" class="form-control" id="email" name="email" placeholder="Seu email" oninput="updateProgress()">
-            </div>
-            <div class="form-group">
-                <label for="message">Mensagem</label>
-                <textarea class="form-control" id="message" name="mensagem" rows="3" placeholder="Sua mensagem" oninput="updateProgress()"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
-        </form>
-    </div>
+    <main>
+        <div class="container mt-5" id="contact">
+            <h2>Contato</h2>
+            <form id="contact-form" action="https://formsubmit.co/cardosorafaela.2802@gmail.com" method="POST">
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" class="form-control" id="name" name="nome" placeholder="Seu nome"
+                        oninput="updateProgress()">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Seu email"
+                        oninput="updateProgress()">
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensagem</label>
+                    <textarea class="form-control" id="message" name="mensagem" rows="3" placeholder="Sua mensagem"
+                        oninput="updateProgress()"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
 
-    <div class="progress-container">
+        <div class="chata">
         <div class="progress">
-            <div class="progress-bar bg-primary" id="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+            <div id="progress-bar" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
         </div>
     </div>
+    </main>
 
-    <script src="contato.js"></script>
 </body>
+
 </html>

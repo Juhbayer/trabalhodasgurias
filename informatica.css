@@ -74,3 +74,27 @@ h2 {
     color: rgb(219, 170, 231);
    
 }
+.bot{
+    
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: hsl(207, 79%, 77%);
+        text-align: center;
+  
+    
+        display: inline;
+        padding: 0 100px;
+  
+    
+       display: inline-block;
+        color: #fffbfb;
+        padding: 14px 20px;
+        text-decoration: none;
+  
+    
+      background-color: hsl(202, 83%, 67%);
+
+    
+}
